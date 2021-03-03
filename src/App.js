@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+
+
+import {Fragment} from 'react';
+import Ticket from './pages/Ticket/Ticket'
+import Sidebar from './containers/Sidebar/Sidebar'
+import Ideas from './pages/Ideas/Ideas';
+import Overwiev from './pages/Owerview/Overwiev'
+
+
+import '../src/assests/styles/main.scss'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Router>
+     <div className="App">
+
+
+      <Sidebar/>
+
+
+
+      <div className="content">
+        
+
+
+        
+        <Switch>
+          <Route path="/Ticket" component={Ticket}/>
+            
+         
+          <Route path="/Overwiev" component={Overwiev}/>
+
+          <Route path="/Ideas" component={Ideas}/>
+          
+        </Switch>
+      </div>
+
+   </div>
+   </Router>
   );
 }
 

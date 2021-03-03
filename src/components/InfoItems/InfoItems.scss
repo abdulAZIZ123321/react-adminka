@@ -1,0 +1,51 @@
+.sections {
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px 60px;
+    margin-right: 30px;
+    transition: all ease .5s;
+
+    
+
+    &:hover {
+
+        border: 1px solid #3751FF;
+
+        .above-title {
+            color: #3751FF;
+            
+        }
+
+        .title1 {
+            color: #3751FF;
+        }
+    }
+
+    .above-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #9FA2B4;
+        transition: all ease .5s;
+    }
+
+    .title1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #252733;
+        transition: all ease .5s;
+    }
+}
+
+.sections:last-child {
+    margin-right: 0px;
+}

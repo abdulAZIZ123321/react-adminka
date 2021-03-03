@@ -1,0 +1,104 @@
+.Item-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+
+    .item-left {
+         width: 100%;
+         padding: 32px;
+        .left-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .inner-left {
+                .title1 {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 19px;
+                    line-height: 24px;
+                    letter-spacing: 0.4px;
+                    color: #252733;
+                }
+
+                .text1 {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: 0.1px;
+                    color: #9FA2B4;
+                }
+            }
+
+
+            .inner-right {
+                display: flex;
+                align-items: center;
+
+
+
+                .text1 {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: 0.1px;
+                    color: #9FA2B4;
+                    display: flex;
+                    align-items: center;
+                   
+                    
+                }
+
+                .text1:before {
+                    content: "";
+                    width: 20px;
+                    height: 3px;
+                    display: inline-block;
+                    background-color: #DFE0EB;
+                     margin-right: 8px;
+                     margin-left: 8px;
+
+                }
+            }
+           
+        }
+    }
+
+    .item-right {
+        .right-inner {
+            border-left: 1px solid #DFE0EB;
+            
+            .inner-sections {
+                padding: 32px;
+                border-bottom: 1px solid #DFE0EB;
+                
+
+                .section-title {
+                    font-style: normal;
+                    display: inline-block;
+                    width: 278px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: 0.3px;
+                    color: #9FA2B4;
+                    margin-bottom: 6px;
+                }
+
+                .section-number {
+                    font-style: normal;
+                   
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 30px;
+                    text-align: center;
+                    letter-spacing: 0.3px;
+                    color: #252733;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,iBAAiB;EACzB,UAAU,EAAE,UAAU;EACtB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,SAAS;CACpB",
+    "sources": [
+        "CenterTable.scss"
+    ],
+    "names": [],
+    "file": "CenterTable.css"
+}

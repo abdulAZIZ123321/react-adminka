@@ -1,5 +1,10 @@
 .SidebarBtn {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: none;
   background-color: transparent;
   outline: none;
@@ -14,10 +19,24 @@
   border-left: 3px solid transparent;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
+  width: 100%;
+}
+
+.SidebarBtn .btn-icon {
+  margin-right: 24px;
+}
+
+.SidebarBtn .btn-icon svg {
+  fill: rgba(96, 98, 110, 0.4);
 }
 
 .SidebarBtn:hover {
   color: #DDE2FF;
   border-left: 3px solid #DDE2FF;
+  background-color: rgba(159, 162, 180, 0.08);
+}
+
+.SidebarBtn:hover .btn-icon svg {
+  fill: #DCE1FE;
 }
 /*# sourceMappingURL=SidebarBtn.css.map */

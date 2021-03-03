@@ -30,7 +30,7 @@ const Sidebar = () => {
 
             
 
-            <Link to="/Overwiev">
+            <Link to="/Second">
                  <SidebarBtn title="Overwiev" icon={<ChartIcon/>}/>
             </Link>
             <Link to="/Ticket">

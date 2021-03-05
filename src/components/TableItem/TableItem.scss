@@ -64,5 +64,22 @@
             border-radius: 100px;
             padding: 5px 12px;
         }
+
+        .father-dots {
+            display: block;
+            margin-left: 82px;
+        }
+
+        .dots {
+            display: block;
+            width: 3.5px;
+            height: 3.5px;
+            padding: 3.5px;
+            background-color: #C5C7CD;
+            outline: none;
+            border: none;
+            border-radius: 50%;
+            margin-bottom: 2.5px;
+        }
     }
 }

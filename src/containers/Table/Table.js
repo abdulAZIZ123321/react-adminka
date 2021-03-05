@@ -14,6 +14,7 @@ const tableInfoArr = [
         dateHour: '6:30 PM',
         Status: 'High',
         ImgLink: man
+        
 
 
     },

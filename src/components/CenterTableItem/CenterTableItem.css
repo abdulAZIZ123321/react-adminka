@@ -61,6 +61,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Item-wrapper .item-left .left-inner .inner-right .text1:before {
@@ -69,5 +72,39 @@
   height: 3px;
   display: inline-block;
   background-color: #DFE0EB;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.Item-wrapper .item-right .right-inner {
+  border-left: 1px solid #DFE0EB;
+}
+
+.Item-wrapper .item-right .right-inner .inner-sections {
+  padding: 32px;
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.Item-wrapper .item-right .right-inner .inner-sections .section-title {
+  font-style: normal;
+  display: inline-block;
+  width: 278px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #9FA2B4;
+  margin-bottom: 6px;
+}
+
+.Item-wrapper .item-right .right-inner .inner-sections .section-number {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #252733;
 }
 /*# sourceMappingURL=CenterTableItem.css.map */

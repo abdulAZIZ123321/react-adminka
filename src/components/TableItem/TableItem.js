@@ -34,6 +34,11 @@ const TableItem = (props) => {
                     <h6>{dateHour}</h6>
                 </div>
                 <h3 className="table-tag">{Status}</h3>
+                <div className="father-dots">
+                    <button className="dots"></button>
+                    <button className="dots"></button>
+                    <button className="dots"></button>
+                </div>
           </div>
       </div>
     )
